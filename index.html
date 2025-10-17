@@ -1,156 +1,170 @@
 <!DOCTYPE html>
 <html lang="it">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Catalogo di Razze Canine</title>
-<style>
-body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin: 0; padding: 0 1rem; color: #111; }
-header { text-align: center; padding: 2rem 0; }
-h1 { margin: 0.2rem 0 1rem; font-size: 2rem; }
-.grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 1rem; max-width: 1100px; margin: 0 auto 3rem; }
-.card { border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; background: #fff; text-align: center; transition: box-shadow .15s; }
-.card a { color: inherit; text-decoration: none; display:block; }
-.thumb { width:100%; aspect-ratio: 4/3; object-fit: cover; display: block; }
-.card h2 { margin: 0.5rem; font-size: 1.1rem; }
-.card:hover { box-shadow: 0 6px 18px rgba(0,0,0,0.08); }
-footer { text-align: center; padding: 1rem 0 3rem; color: #666; }
-</style>
-</head>
-<body>
-<header>
-<h1>Catalogo di Razze Canine</h1>
-<p>Scopri 15 razze canine: immagini, descrizioni e curiosità.</p>
-</header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Catalogo di Razze Canine</title>
+  </head>
+  <body>
+    <header>
+      <h1>Catalogo di Razze Canine</h1>
+      <p>Scopri 15 razze canine: immagini, descrizioni e curiosità.</p>
+    </header>
 
-<main>
-<section class="grid" aria-label="Elenco razze">
-<!-- 1 -->
-<div class="card">
-<a href="razze/pastore_tedesco.html">
-<img class="thumb" src="images/pastore_tedesco.jpg" alt="Pastore Tedesco" />
-<h2>Pastore Tedesco</h2>
-</a>
-</div>
+    <main>
+      <section aria-label="Elenco razze">
+        <!-- 1 -->
+        <div>
+          <a href="razze/pastore_tedesco.html">
+            <img
+              src="images/pastore_tedesco.jpg"
+              alt="Pastore Tedesco"
+              width="100%"
+            />
+            <h2>Pastore Tedesco</h2>
+          </a>
+        </div>
 
-<!-- 2 -->
-<div class="card">
-<a href="razze/labrador_retriever.html">
-<img class="thumb" src="images/labrador_retriever.jpg" alt="Labrador Retriever" />
-<h2>Labrador Retriever</h2>
-</a>
-</div>
+        <!-- 2 -->
+        <div>
+          <a href="razze/labrador_retriever.html">
+            <img
+              src="images/labrador_retriever.jpg"
+              alt="Labrador Retriever"
+              width="100%"
+            />
+            <h2>Labrador Retriever</h2>
+          </a>
+        </div>
 
-<!-- 3 -->
-<div class="card">
-<a href="razze/golden_retriever.html">
-<img class="thumb" src="images/golden_retriever.jpg" alt="Golden Retriever" />
-<h2>Golden Retriever</h2>
-</a>
-</div>
+        <!-- 3 -->
+        <div>
+          <a href="razze/golden_retriever.html">
+            <img
+              src="images/golden_retriever.jpg"
+              alt="Golden Retriever"
+              width="100%"
+            />
+            <h2>Golden Retriever</h2>
+          </a>
+        </div>
 
-<!-- 4 -->
-<div class="card">
-<a href="razze/barboncino.html">
-<img class="thumb" src="images/barboncino.jpg" alt="Barboncino (Poodle)" />
-<h2>Barboncino</h2>
-</a>
-</div>
+        <!-- 4 -->
+        <div>
+          <a href="razze/barboncino.html">
+            <img
+              src="images/barboncino.jpg"
+              alt="Barboncino (Poodle)"
+              width="100%"
+            />
+            <h2>Barboncino</h2>
+          </a>
+        </div>
 
-<!-- 5 -->
-<div class="card">
-<a href="razze/bulldog_francese.html">
-<img class="thumb" src="images/bulldog_francese.jpg" alt="Bulldog Francese" />
-<h2>Bulldog Francese</h2>
-</a>
-</div>
+        <!-- 5 -->
+        <div>
+          <a href="razze/bulldog_francese.html">
+            <img
+              src="images/bulldog_francese.jpg"
+              alt="Bulldog Francese"
+              width="100%"
+            />
+            <h2>Bulldog Francese</h2>
+          </a>
+        </div>
 
-<!-- 6 -->
-<div class="card">
-<a href="razze/beagle.html">
-<img class="thumb" src="images/beagle.jpg" alt="Beagle" />
-<h2>Beagle</h2>
-</a>
-</div>
+        <!-- 6 -->
+        <div>
+          <a href="razze/beagle.html">
+            <img src="images/beagle.jpg" alt="Beagle" width="100%" />
+            <h2>Beagle</h2>
+          </a>
+        </div>
 
-<!-- 7 -->
-<div class="card">
-<a href="razze/boxer.html">
-<img class="thumb" src="images/boxer.jpg" alt="Boxer" />
-<h2>Boxer</h2>
-</a>
-</div>
+        <!-- 7 -->
+        <div>
+          <a href="razze/boxer.html">
+            <img src="images/boxer.jpg" alt="Boxer" width="100%" />
+            <h2>Boxer</h2>
+          </a>
+        </div>
 
-<!-- 8 -->
-<div class="card">
-<a href="razze/siberian_husky.html">
-<img class="thumb" src="images/siberian_husky.jpg" alt="Siberian Husky" />
-<h2>Siberian Husky</h2>
-</a>
-</div>
+        <!-- 8 -->
+        <div>
+          <a href="razze/siberian_husky.html">
+            <img src="images/siberian_husky.jpg" alt="Siberian Husky" />
+            <h2>Siberian Husky</h2>
+          </a>
+        </div>
 
-<!-- 9 -->
-<div class="card">
-<a href="razze/corgi_pembroke.html">
-<img class="thumb" src="images/corgi_pembroke.jpg" alt="Corgi Pembroke" />
-<h2>Corgi (Pembroke)</h2>
-</a>
-</div>
+        <!-- 9 -->
+        <div>
+          <a href="razze/corgi_pembroke.html">
+            <img
+              src="images/corgi_pembroke.jpg"
+              alt="Corgi Pembroke"
+              width="100%"
+            />
+            <h2>Corgi (Pembroke)</h2>
+          </a>
+        </div>
 
-<!-- 10 -->
-<div class="card">
-<a href="razze/bassotto.html">
-<img class="thumb" src="images/bassotto.jpg" alt="Bassotto (Dachshund)" />
-<h2>Bassotto</h2>
-</a>
-</div>
+        <!-- 10 -->
+        <div>
+          <a href="razze/bassotto.html">
+            <img
+              src="images/bassotto.jpg"
+              alt="Bassotto (Dachshund)"
+              width="100%"
+            />
+            <h2>Bassotto</h2>
+          </a>
+        </div>
 
-<!-- 11 -->
-<div class="card">
-<a href="razze/rottweiler.html">
-<img class="thumb" src="images/rottweiler.jpg" alt="Rottweiler" />
-<h2>Rottweiler</h2>
-</a>
-</div>
+        <!-- 11 -->
+        <div>
+          <a href="razze/rottweiler.html">
+            <img src="images/rottweiler.jpg" alt="Rottweiler" width="100%" />
+            <h2>Rottweiler</h2>
+          </a>
+        </div>
 
-<!-- 12 -->
-<div class="card">
-<a href="razze/dobermann.html">
-<img class="thumb" src="images/dobermann.jpg" alt="Dobermann" />
-<h2>Dobermann</h2>
-</a>
-</div>
+        <!-- 12 -->
+        <div>
+          <a href="razze/dobermann.html">
+            <img src="images/dobermann.jpg" alt="Dobermann" width="100%" />
+            <h2>Dobermann</h2>
+          </a>
+        </div>
 
-<!-- 13 -->
-<div class="card">
-<a href="razze/border_collie.html">
-<img class="thumb" src="images/border_collie.jpg" alt="Border Collie" />
-<h2>Border Collie</h2>
-</a>
-</div>
+        <!-- 13 -->
+        <div>
+          <a href="razze/border_collie.html">
+            <img
+              src="images/border_collie.jpg"
+              alt="Border Collie"
+              width="100%"
+            />
+            <h2>Border Collie</h2>
+          </a>
+        </div>
 
-<!-- 14 -->
-<div class="card">
-<a href="razze/shihtzu.html">
-<img class="thumb" src="images/shihtzu.jpg" alt="Shih Tzu" />
-<h2>Shih Tzu</h2>
-</a>
-</div>
+        <!-- 14 -->
+        <div>
+          <a href="razze/shihtzu.html">
+            <img src="images/shihtzu.jpg" alt="Shih Tzu" width="100%" />
+            <h2>Shih Tzu</h2>
+          </a>
+        </div>
 
-<!-- 15 -->
-<div class="card">
-<a href="razze/cane_corso.html">
-<img class="thumb" src="images/cane_corso.jpg" alt="Cane Corso" />
-<h2>Cane Corso</h2>
-</a>
-</div>
-
-</section>
-</main>
-
-<footer>
-<p>Immagini: metti i file nella cartella <code>images/</code>. Pagine razze nella cartella <code>razze/</code>.</p>
-</footer>
-</body>
+        <!-- 15 -->
+        <div>
+          <a href="razze/cane_corso.html">
+            <img src="images/cane_corso.jpg" alt="Cane Corso" width="100%" />
+            <h2>Cane Corso</h2>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
-
